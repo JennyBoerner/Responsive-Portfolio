@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header section formatting*/
+header {
+    background-color: #ffffff;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-bottom-style: solid; 
+    border-left-style: none; 
+    border-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+}
+
+/*Jenny Boerner on index page*/
+h1 {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 310px;
+    text-align: center;
+    color: white;
+    float: left;
+    Margin-left: 300px;
+    height: 70px;
+    line-height: 70px;
+}
+
+/*Jenny Boerner on portfolio and contact page*/
+.h1sm {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 310px;
+    text-align: center;
+    color: white;
+    float: left;
+    Margin-left: 400px;
+    height: 70px;
+    line-height: 70px;
+}
+
+/*Internal links within the header on index page*/
+.internallinks {
+    text-align: right;
+    line-height: 70px;
+    margin-right: 310px;
+    color: #777777;
+}
+
+/*Internal links within the header on portfolio and contact page*/
+.internallinks2 {
+    text-align: right;
+    line-height: 70px;
+    margin-right: 400px;
+    color: #777777;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.indexlink {
+    color: #777777;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.contactlink {
+    color: #777777;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.portfoliolink {
+    border-top-style: none; 
+    border-right-style: solid; 
+    border-bottom-style: none; 
+    border-left-style: solid; 
+    border-color: #cccccc;
+    border-width: 1px;
+    color: #777777;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Middle section for portfolio and contact page*/
+.middleSection {
+    background-color: #ffffff;
+     width: 650px;
+     height: 770px;
+     margin-top: 30px;
+     margin-right: auto;
+     margin-bottom: auto;
+     margin-left: auto;
+     padding: 30px;
+     color: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+     clear: both;
+ }
+
+ /*Middle section for index page*/
+.aboutme {
+   background-color: #ffffff;
+    width: 900px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 30px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+
+}
+
+h2 {
+    border-top-style: none;
+    border-right-style: none; 
+    border-bottom-style: solid; 
+    border-left-style: none; 
+    border-color: #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+}
+
+/*Image on index page*/
+.imageofme {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*Information of me on index page*/
+.infoparagraph {
+    margin-top: 20px;
+    line-height: 200%;
+}
+
+/*Images and text boxes on portfolio page*/
+.imghangman {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.container {
+    position: relative;
+    margin: 0;
+    padding-right: 20px;
+    width: 200px;
+    height: 220px;
+    float: left;
+}
+
+.text-box {
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    line-height: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgrpg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.imgtrivia {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.imgrutgers {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.imgrps {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+/*Full page wrapper for footer positioning*/
+.wrapper {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+   
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    height: 60px;
+    border-top-style: solid; 
+    border-right-style: none; 
+    border-bottom-style: none; 
+    border-left-style: none; 
+    border-color: #4aaaa5;
+    border-width: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: bottom;
+}
+
+.footerdiv {
+    padding-top: 30px;
+}
+
+/*Contact page form formatting*/
+.label {
+    color: #777777;
+    font-weight: normal !important;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-control submit {
+    width: 40px !important;
+}
+
+input[type=submit] {
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 980px)
+@media screen and (max-width: 768px)
+@media screen and (max-width: 640px)
